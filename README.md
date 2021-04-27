@@ -8,7 +8,7 @@ Geographical data of cities and towns in Lithuania and Spain, which can be used 
 
 The class DCFLP (Discrete Competitive Facility Location Problem) is stored in the file `DCFLP.cpp` with the header file `DCFLP.h` and is designed to store and manage problem data.
 
-### Variables of the class
+#### Member variables
 
 - `problemName` - problem name (`string`);
 - `I` - vector of demand points (`vector < vector<double> > `); each element is a vector which stores two coordinates and the population;
@@ -18,4 +18,4 @@ The class DCFLP (Discrete Competitive Facility Location Problem) is stored in th
     vector <int>               L;   // Location candidates
     vector <int>               qL;  // Qualities of location candidates
 
-### Methods of the class
+#### Member functions
