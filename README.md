@@ -10,9 +10,9 @@ The class DCFLP (Discrete Competitive Facility Location Problem) is stored in th
 
 #### Member variables
 
-- `problemName` - problem name (`string`);
-- `I` - vector of demand points (`vector < vector<double> > `); each element is a vector which stores two coordinates and the population;
-- `DM` - distance matrix, which describes distances between all demand points (`vector < vector<double> >`);
+- `problemName` - problem name (`string`).
+- `I` - list of demand points implemented as a vector of vectors (`vector < vector<double> > `). Each element (vector) stores three `double` values: two coordinates and the population.
+- `DM` - distance matrix, which stores distances between all demand points (`vector < vector<double> >`);
     vector < vector <int> >    J;   // Preexisting facilities
     vector < vector <int> >    qJ;  // Qualities of preexisting facilities
     vector <int>               L;   // Location candidates
