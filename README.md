@@ -2,4 +2,4 @@
 
 ## GeoData
 
-Geographical data of cities and towns in Lithuania and Spain, which can be used as demand points in a facility location model. First two columns of a file stands for the geographical coordinates of the point and the last column - for the population (number of citizens).
+Geolocation data for cities and towns (in Lithuania and Spain), suitable for utilizing as demand points in a facility location model. The first two columns represent the geographical coordinates, while the last column provides the population count.
